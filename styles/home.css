@@ -1,63 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: sans-serif;
-}
-.container{
-    width: 1200px;
-    margin: 0 auto;
-   padding: 10px;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-#active-menu{
-    color: #5570F8;
-}
-/* Navbar styles */
-.navbar{
-    background-color: rgb(242,242,242);
-    width: 1300px;
-    padding: 10px;
-    border-bottom: 1px solid black;
-    position: sticky;
-   top: 0;
-}
-.navbar-container{
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-}
-.nav-menu ul{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-.nav-menu ul li a{
-    color: rgb(85,85,85);
-}
-#logo{
-    font-weight: bold;
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.btn-primary{
-    background-color: #5570F8;
-    padding: 10px 14px;
-    color: white;
-    border-radius: 20px;
-}  
 
-.btn-secondary{
-    background-color: black;
-    padding: 10px 14px;
-    color: white;
-    border-radius: 20px;
-}
 /* Hero  section styles */
 .hero-container{
     display: flex;
@@ -80,6 +21,13 @@ a {
     color: #5570F8;
     font-weight: bold;
 }
+
+.p1 i {
+    background-color: #E0E7FF;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;}
+    
 .hero-left h1{
     font-size: 50px;
     font-weight: bold;
@@ -91,6 +39,7 @@ font-size: 25px;
 .hero-left h2 span{
     color: black;
 }
+
 .p2{
     color: darkgray;
 }
@@ -102,6 +51,11 @@ font-size: 25px;
     display: flex;
     gap: 20px;
 }
+
+.points span i {
+    margin-right: 10px;
+    color: #5570F8;}
+    
 .points span{
     background-color: lightgray;
     width: 120px;
@@ -132,6 +86,11 @@ color: rgb(46,46,46);
     display: flex;
     gap: 20px;
 }
+
+.about span i {
+    margin-right: 10px;
+}
+
 .focus{
     background-color: white;
     display: flex;
@@ -165,8 +124,12 @@ font-size: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
+
+.box-container i {
+    font-size: 26px;
+}
+
 .box-container div{
     width: 260px;
     height: 300px;
@@ -192,81 +155,4 @@ gap: 12px;
 .box-container div p{
     text-align: center;
     line-height: 1.5;
-}
-/* footer styles*/
-.footer{
-    background-color: black;
-    width: 1300px;
-    height: 500px;
-}
-.footer-top{
-    height: 350px;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    padding: 50px 0;
-    border-bottom: 1px solid lightgray;
-}
-.footer-top h1{
-    margin-bottom:20px ;
-}
-.footer-top p{
-    color: white;
-    line-height: 1.5;
-}
-.footer-bottom{
-    
-    height: 150px;
-}
-.top-left{
-    width: 30%;
-}
-.top-center{
-    width: 30%;
-}
-.top-center h4{
-    margin-bottom: 20px;
-}
-.top-center ul{
-    list-style: none;
-}
-.top-center ul li {
-     padding: 10px ;
-}
-.top-center ul li a{
-    color: White;
-    
-}
-.top-right{
-    border-radius: 20px;
-    border: 1px solid white;
-    width: 30%;
-    height: 250px;
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: start;
-    background-color: #151B2c;
-}
-.top-right p{
-    line-height: 1.5;
-}
-.footer-bottom{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: gray;
-    padding: 10px 0;
-}
-.footer-bottom ul{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-.footer-bottom ul li a{
-    color: gray;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    padding: 10px 15px;
 }
