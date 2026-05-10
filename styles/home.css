@@ -71,7 +71,7 @@ color: rgb(46,46,46);
     border: 1px solid black;
     padding: 40px;
     border-radius: 20px;
-    background-color: #F1F5FD;
+    background-color: #Fafbff;
 }
 .hero-image img{
     width: 100%;
@@ -143,6 +143,12 @@ border: 1px solid darkgray;
 border-radius: 15px;
 gap: 12px;
 }
+.box-container div:hover{
+    transform: scale(1.07);
+    box-shadow: 0px 10px  20px blue;
+    border-color: gray;
+}
+
 .box-container div span{
     padding:  10px 15px;
     background-color: darkgray;
