@@ -125,19 +125,17 @@ border: 1px solid #dbdbdb
 border-radius: 10px;
 margin: 10px 0;
 height: 50px;
+width: 50%;
 }
 .start-cards div{
   line-height: 20px;
 }
 .start-card span{
-  padding: 20px;
+  padding: 10px 0;
   color: #5570f9;
 }
-
 .about-action{
-  align-items: end;
 margin-top: 110px;
 display: flex;
-justify-content: space-between;
-gap: 20px;
+gap: 10px;
 }
