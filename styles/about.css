@@ -1,0 +1,143 @@
+.page-container header{
+  text-align: center;
+  padding: 20px;
+  line-height: 40px;
+}
+.know-me{
+  color: #5570f9;
+}
+.page-title{
+  font-weight: bold;
+  font-size: 40px;
+}
+.font{
+  color: gray;
+}
+.page-content{
+  display: flex;
+  justify-content: space-between;
+}
+.page-content .left{
+  width: 30%;
+  padding: 20px;
+  border: 1px solid rgb(210, 210, 210);
+  border-radius: 30px;
+  background-color: #fafbff;
+}
+.image-container{
+  width: 100%;
+}
+.image-container img{
+  width: 100%;
+  border: 3px solid #5570f9;
+  border-radius: 30px;
+  background-color: white;
+}
+.skill-container{
+margin: 10px 0;
+  
+}
+.left h4{
+  color: #686868;
+  line-height: 30px;
+}
+.skill-container div{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.skill-container div span{
+  padding: 10px 15px;
+  background-color: rgb(240, 247, 255);
+  border-radius: 10px;
+}
+.contact-container ul{
+  list-style: none;
+  line-height: 20px;
+}
+.contact-container ul li i{
+  color: #5570f9;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.solia-links{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.solia-links a{
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #dbdbdb;
+}
+.page-content .right{
+  width: 60%;
+  padding: 20px;
+  background-color: white
+  ;
+  border: 1px solid #dbdbdb;
+  border-radius: 20px;
+}
+.right .hello{
+  line-height: 30px;
+}
+.right .hello span{
+  color: #5570f9;
+  font-weight: 500;
+}
+.highlight-cards{
+  display: flex;
+  align-items: center;
+gap: 10px;
+border: 1px solid #dbdbdb
+;
+border-radius: 10px;
+margin: 10px 0;
+}
+.highlight-cards div{
+  line-height: 20px;
+}
+.highlight-cards span{
+  padding: 20px;
+  color: gray;
+}
+.design p{
+  line-height: 20px;
+  margin: 10px 0;
+  text-align: justify;
+}
+.design{
+  margin: 20px 0;
+}
+.start{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.start-card{
+  
+  display: flex;
+  align-items: center;
+gap: 10px;
+border: 1px solid #dbdbdb
+;
+border-radius: 10px;
+margin: 10px 0;
+height: 50px;
+}
+.start-cards div{
+  line-height: 20px;
+}
+.start-card span{
+  padding: 20px;
+  color: #5570f9;
+}
+
+.about-action{
+  align-items: end;
+margin-top: 110px;
+display: flex;
+justify-content: space-between;
+gap: 20px;
+}
